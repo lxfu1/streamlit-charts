@@ -6,7 +6,7 @@
 
 [Ant Design Charts](https://ant-design-charts.antgroup.com/) is AntV React component library, Simple and easy to use React chart library.
 
-This project was created to allow us to render [Ant Design Charts](https://github.com/ant-design/ant-design-charts) charts in streamlit.
+This project was created to allow us to render charts in streamlit, [live demo](https://acharts.streamlit.app/).
 
 ![examples](https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*11uNQrnKdFoAAAAAAAAAAAAADmJ7AQ/original)
 ![Build Status](https://github.com/ant-design/ant-design-charts/workflows/build/badge.svg)
