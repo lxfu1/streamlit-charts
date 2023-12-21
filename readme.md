@@ -21,7 +21,7 @@ This project was created to allow us to render [Ant Design Charts](https://githu
 ## Installation
 
 ```
-pip install streamlit-charts 
+pip3 install streamlit-charts 
 ```
 
 
