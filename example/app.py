@@ -29,7 +29,7 @@ options = {
     "colorField": "genre"
 }
 
-charts(options=options)
+charts(options=options, type="Column")
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -113,7 +113,7 @@ options = {
     "yField": "close"
 }
 
-charts(options=options)
+charts(options=options, type="Line")
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -184,7 +184,7 @@ options = {
         { "id": "elixir", "value": 561 },
         { "id": "rust", "value": 54 }
     ],
-    "colorField": "date",
+    "colorField": "id",
     "angleField": "value",
     "style": {
         "radius": 4,
@@ -222,7 +222,7 @@ options = {
         { "id": "elixir", "value": 561 },
         { "id": "rust", "value": 54 }
     ],
-    "colorField": "date",
+    "colorField": "id",
     "angleField": "value",
     "style": {
         "radius": 4,
