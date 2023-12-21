@@ -17,6 +17,7 @@ This project was created to allow us to render [Ant Design Charts](https://githu
 """
 
 options = {
+    "theme": "dark",
     "data": [
         { "genre": "Sports", "sold": 275 },
         { "genre": "Strategy", "sold": 115 },
@@ -38,6 +39,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": [
         { "genre": "Sports", "sold": 275 },
         { "genre": "Strategy", "sold": 115 },
@@ -61,6 +63,7 @@ charts(type="Column", options=options)
 """
 
 options = {
+    "theme": "dark",
     "data": [
         { "genre": "Sports", "sold": 275 },
         { "genre": "Strategy", "sold": 115 },
@@ -82,6 +85,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": [
         { "genre": "Sports", "sold": 275 },
         { "genre": "Strategy", "sold": 115 },
@@ -105,6 +109,7 @@ charts(type="Bar", options=options)
 """
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/bmw-prod/551d80c6-a6be-4f3c-a82a-abd739e12977.csv",
@@ -122,6 +127,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/bmw-prod/551d80c6-a6be-4f3c-a82a-abd739e12977.csv",
@@ -141,6 +147,7 @@ charts(type="Line", options=options)
 """
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/bmw-prod/551d80c6-a6be-4f3c-a82a-abd739e12977.csv",
@@ -158,6 +165,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/bmw-prod/551d80c6-a6be-4f3c-a82a-abd739e12977.csv",
@@ -177,6 +185,7 @@ charts(type="Area", options=options)
 """
 
 options = {
+    "theme": "dark",
     "data": [
         { "id": "c", "value": 526 },
         { "id": "sass", "value": 220 },
@@ -215,6 +224,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": [
         { "id": "c", "value": 526 },
         { "id": "sass", "value": 220 },
@@ -255,6 +265,7 @@ charts(type="Pie", options=options)
 """
 
 options = {
+    "theme": "dark",
   "data": [
     {
       "Month": "Jan",
@@ -408,6 +419,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
   "data": [
     {
       "Month": "Jan",
@@ -562,6 +574,7 @@ charts(type="DualAxes", options=options)
 """
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/basement_prod/6b4aa721-b039-49b9-99d8-540b3f87d339.json",
@@ -581,6 +594,7 @@ import streamlit as st
 from streamlit_charts import charts
 
 options = {
+    "theme": "dark",
     "data": {
         "type": "fetch",
         "value": "https://gw.alipayobjects.com/os/basement_prod/6b4aa721-b039-49b9-99d8-540b3f87d339.json",
