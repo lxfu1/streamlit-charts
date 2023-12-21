@@ -9,7 +9,6 @@
 This project was created to allow us to render charts in streamlit, [live demo](https://ant-design-charts.streamlit.app/).
 
 ![examples](https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*11uNQrnKdFoAAAAAAAAAAAAADmJ7AQ/original)
-![Build Status](https://github.com/ant-design/ant-design-charts/workflows/build/badge.svg)
 ![npm Version](https://img.shields.io/npm/v/@ant-design/charts)
 ![npm Download](https://img.shields.io/npm/dm/@ant-design/charts)
 [![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design-charts)](https://github.com/ant-design/ant-design-charts/stargazers)
@@ -21,7 +20,7 @@ This project was created to allow us to render charts in streamlit, [live demo](
 ## Installation
 
 ```
-pip3 install streamlit-charts 
+pip3 install streamlit-charts
 ```
 
 
@@ -49,7 +48,7 @@ from streamlit_charts import charts
     },
   }
 
-  charts(options=options, type="Column", key="streamlit-charts")
+  charts(type="Column", options=options, key="streamlit-charts")
 ```
 
 <img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*aPxqSpQcsUQAAAAAAAAAAAAADmJ7AQ/original" width="640" alt="example">
@@ -57,12 +56,12 @@ from streamlit_charts import charts
 
 ## API
 
-Now, There is only one API for `streamlit-charts`, named `charts`, see the `options` in [Ant Design Charts](https://ant-design-charts.antgroup.com/).
+Now, There is only one API for `streamlit-charts`, named `charts`, see the `type | options` in [Ant Design Charts](https://ant-design-charts.antgroup.com/).
 
 | Property | Description                                                                                                     | Type                  | Default |
 | -------- | --------------------------------------------------------------------------------------------------------------- | --------------------- | ------- |
-| options  | the [options](https://ant-design-charts.antgroup.com/) for the visualization | `Options` \| `null` | -       |
-| type    | the chart type of the charts                                                                                      | `Str`       | `Column`      |
+| type    | the chart type of the charts, eg: `Line、Column、Bar、Pie...`                                                                                    | `Str`       | `Column`      |
+| options  | the options for the visualization | `Options` | -       |
 
 
 ## Development

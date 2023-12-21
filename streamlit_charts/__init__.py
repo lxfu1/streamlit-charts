@@ -41,16 +41,15 @@ else:
 # `declare_component` and call it done. The wrapper allows us to customize
 # our component's API: we can pre-process its input args, post-process its
 # output value, and add a docstring for users.
-def charts(options, type=None, key=None):
+def charts(type, options, key=None):
     """Create a new instance of "charts".
 
     Parameters
     ----------
+    type: str
+        Required. The chart type to be visualized. More type can be found in https://ant-design-charts.antgroup.com/
     options: dict
         Required. The options/spec of charts to be visualized.
-    type: str or None
-        The chart type to be visualized. If this is None, the default type Column will be used.
-        More type can be found in https://ant-design-charts.antgroup.com/
     key: str or None
         An optional key that uniquely identifies this component. If this is
         None, and the component's arguments are changed, the component will
@@ -70,8 +69,8 @@ def charts(options, type=None, key=None):
     component_value = _component_func(options=options, type=type, key=key)
     return component_value
 
-def st_charts(options, type=None, key=None):
-    return charts(options, type, key=key)
+def st_charts(type, options, key=None):
+    return charts(type, options, key)
 
 
 # Add some test code to play with the component while it's in development.
@@ -100,4 +99,4 @@ if not _RELEASE:
         "tooltip": {}
     }
 
-    charts(options=options, type="Column", key="streamlit-charts")
+    charts(type="Column", options=options, key="streamlit-charts")

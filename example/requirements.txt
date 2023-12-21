@@ -1,2 +1,2 @@
 streamlit
-streamlit-charts==0.1.0
+streamlit-charts==0.1.1

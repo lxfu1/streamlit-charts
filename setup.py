@@ -45,7 +45,7 @@ def read(*names, **kwargs):
 
 setup(
     name="streamlit-charts",
-    version="0.1.0",
+    version="0.1.1",
     author="lxuf1",
     author_email="954055752@qq.com",
     description="Render Ant Design Charts in Streamlit",

@@ -29,7 +29,7 @@ options = {
     "colorField": "genre"
 }
 
-charts(options=options, type="Column")
+charts(type="Column", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -50,7 +50,7 @@ options = {
     "colorField": "genre"
 }
 
-charts(options=options, type="Column")
+charts(type="Column", options=options)
 ```
 """)
 
@@ -73,7 +73,7 @@ options = {
     "colorField": "genre"
 }
 
-charts(options=options, type="Bar")
+charts(type="Bar", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -94,7 +94,7 @@ options = {
     "colorField": "genre"
 }
 
-charts(options=options, type="Bar")
+charts(type="Bar", options=options)
 ```
 """)
 
@@ -113,7 +113,7 @@ options = {
     "yField": "close"
 }
 
-charts(options=options, type="Line")
+charts(type="Line", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -130,7 +130,7 @@ options = {
     "yField": "close"
 }
 
-charts(options=options, type="Line")
+charts(type="Line", options=options)
 ```
 """)
 
@@ -149,7 +149,7 @@ options = {
     "yField": "close"
 }
 
-charts(options=options, type="Area")
+charts(type="Area", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -166,7 +166,7 @@ options = {
     "yField": "close"
 }
 
-charts(options=options, type="Area")
+charts(type="Area", options=options)
 ```
 """)
 
@@ -206,7 +206,7 @@ options = {
     "legend": False,
 }
 
-charts(options=options, type="Pie")
+charts(type="Pie", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -244,7 +244,7 @@ options = {
     "legend": False,
 }
 
-charts(options=options, type="Pie")
+charts(type="Pie", options=options)
 ```
 """)
 
@@ -399,7 +399,7 @@ options = {
   ]
 }
 
-charts(options=options, type="DualAxes")
+charts(type="DualAxes", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -552,10 +552,9 @@ options = {
   ]
 }
 
-charts(options=options, type="DualAxes")
+charts(type="DualAxes", options=options)
 ```
 """)
-
 
 
 """
@@ -573,7 +572,7 @@ options = {
     "shapeField": "point"
 }
 
-charts(options=options, type="Scatter")
+charts(type="Scatter", options=options)
 
 source = st.expander("Source Code")
 source.markdown("""
@@ -592,6 +591,6 @@ options = {
     "shapeField": "point"
 }
 
-charts(options=options, type="Scatter")
+charts(type="Scatter", options=options)
 ```
 """)
